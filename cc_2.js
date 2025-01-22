@@ -17,3 +17,21 @@ let employee= {
  employee.department= "sales";
  employee.position= "manager";
  console.log(employee)
+
+ let customers= [{
+    name: "Minnie Mouse",
+    email: "minnie.m@disney.com",
+    purchaseAmount: 450},{
+    name: "Daisy Duck",
+    email: "daisy.d@disney.com",
+    purchaseAmount: 623},{
+    name: "Goofy",
+    email: "HotDogg@disney.com",
+    purchaseAmount: 368}]
+
+customers.push({
+    name: "Donald Duck",
+    email: "donald.d@disney.com",
+    purchaseAmount: 256})
+
+console.log(customers)
