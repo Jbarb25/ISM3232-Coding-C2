@@ -8,6 +8,7 @@ scores[1]= 93;
 let scores_avg= (scores[0]+scores[1]+scores[2]+scores[3]+scores[4]) / scores.length;
 console.log(scores_avg)
 
+
 let employee= {
     name: "Mickey Mouse",
     age: 56,
@@ -17,6 +18,7 @@ let employee= {
  employee.department= "sales";
  employee.position= "manager";
  console.log(employee)
+
 
  let customers= [{
     name: "Minnie Mouse",
@@ -33,5 +35,14 @@ customers.push({
     name: "Donald Duck",
     email: "donald.d@disney.com",
     purchaseAmount: 256})
-
 console.log(customers)
+
+
+let order= {
+    orderId: 23456,
+    customerName: "Tom Jerry",
+    amount: 789,}
+
+calculateTax= (order.amount)*0.10
+console.log(order)
+console.log(calculateTax)
